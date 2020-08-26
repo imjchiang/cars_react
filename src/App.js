@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './mitsu_motors.png';
 import './App.css';
 import Evo from "./Evo";
+import Subie from "./Subaru";
+import Focus from "./Focus";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </a>
       </header>
       <Evo />
+      <Subie />
+      <Focus />
     </div>
   );
 }

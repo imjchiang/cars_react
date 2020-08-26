@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import evo9 from "./evo_nine.jpg";
+import evo10 from "./evo_ten.jpg";
 
 class Evo extends Component
 {
@@ -7,9 +7,9 @@ class Evo extends Component
     {
         return(
             <div>
-                <h1>Mitsubishi Evo</h1>
-                <img src={evo9} alt="Evo 9 photo" />
-                <p>Model: Evo 9</p>
+                <h1>Mitsubishi Lancer Evo</h1>
+                <img src={evo10} alt="Evo 10" />
+                <p>Model: Mitsubishi Lancer Evo 10</p>
             </div>
         )
     }
